@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: 'Avenir Next Cyr', sans-serif;
+    overflow-x: hidden;
+    min-width: 320px;
+    background-color: #FBF6F6;
+}
+
+
+.container {
+    max-width: 1450px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+@media (max-width: 1320px) {
+    .title {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 24px;
+    }
+}

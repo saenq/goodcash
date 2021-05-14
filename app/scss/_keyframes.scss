@@ -1,0 +1,80 @@
+@keyframes circle1 {
+    0% {
+        transform: translate(0px,0px) scale(1.1, 1.1);
+    }
+    25% {
+        transform: translate(10px,10px) scale(1, 1);
+    }
+    50% {
+        transform: translate(10px,-10px) scale(1.1, 1.1);
+    }
+    75% {
+        transform: translate(-10px,10px) scale(1, 1);
+    }
+    100% {
+        transform: translate(0px,0px) scale(1.1, 1.1);
+    }
+}
+
+
+@keyframes circle2 {
+    0% {
+        transform: translate(0px,0px) scale(1.15, 1.15);
+    }
+    25% {
+        transform: translate(10px,10px) scale(1, 1);
+    }
+    50% {
+        transform: translate(-15px,15px) scale(1.15, 1.15);
+    }
+    75% {
+        transform: translate(-10px,-10px) scale(1, 1);
+    }
+    100% {
+        transform: translate(0px,0px) scale(1.15, 1.15);
+    }
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+@keyframes border-gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+
+@keyframes card-first {
+    0% {
+        transform: rotate(55deg) translate(-19%, 57%);
+    }
+    100% {
+        transform: rotate(55deg) translate(-36%, 115%);
+    }
+}
+@keyframes card-second {
+    0% {
+        transform: rotate(55deg) translate(-19%, 57%);
+    }
+    100% {
+        transform: rotate(55deg) translate(-19%, 57%);
+    }
+}
+@keyframes card-third {
+    0% {
+        transform: rotate(55deg) translate(-19%, 57%);
+    }
+    100% {
+        transform: rotate(55deg) translate(0%, 0%);
+    }
+}
