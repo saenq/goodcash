@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodCash</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="visibility: hidden; position: absolute; width: 0; height: 0;">
+        <symbol id="icon-ig" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M7.40635 2.46878C4.67941 2.46878 2.46878 4.67941 2.46878 7.40635V19.7503C2.46878 22.4772 4.67941 24.6878 7.40635 24.6878H19.7503C22.4772 24.6878 24.6878 22.4772 24.6878 19.7503V7.40635C24.6878 4.67941 22.4772 2.46878 19.7503 2.46878H7.40635ZM0 7.40635C0 3.31594 3.31594 0 7.40635 0H19.7503C23.8407 0 27.1566 3.31594 27.1566 7.40635V19.7503C27.1566 23.8407 23.8407 27.1566 19.7503 27.1566H7.40635C3.31594 27.1566 0 23.8407 0 19.7503V7.40635ZM14.1748 9.86178C13.4043 9.74753 12.6174 9.87913 11.926 10.2379C11.2347 10.5966 10.674 11.1642 10.3238 11.86C9.97361 12.5557 9.85172 13.3442 9.97546 14.1132C10.0992 14.8822 10.4623 15.5927 11.0131 16.1434C11.5638 16.6942 12.2743 17.0573 13.0433 17.181C13.8123 17.3048 14.6008 17.1829 15.2965 16.8327C15.9923 16.4825 16.5599 15.9219 16.9186 15.2305C17.2774 14.5391 17.409 13.7522 17.2947 12.9817C17.1782 12.1958 16.812 11.4682 16.2501 10.9064C15.6883 10.3445 14.9607 9.97832 14.1748 9.86178ZM10.789 8.04653C11.9413 7.44862 13.2528 7.22928 14.5369 7.4197C15.8468 7.61394 17.0595 8.22431 17.9958 9.16067C18.9322 10.097 19.5426 11.3097 19.7368 12.6196C19.9272 13.9037 19.7079 15.2152 19.11 16.3675C18.5121 17.5198 17.566 18.4543 16.4065 19.0379C15.2469 19.6216 13.9328 19.8247 12.6511 19.6185C11.3694 19.4122 10.1853 18.8071 9.26737 17.8891C8.34941 16.9712 7.74428 15.7871 7.53803 14.5054C7.33179 13.2237 7.53495 11.9096 8.1186 10.75C8.70225 9.59046 9.63668 8.64443 10.789 8.04653ZM20.3674 5.55476C19.6857 5.55476 19.1331 6.10742 19.1331 6.78915C19.1331 7.47089 19.6857 8.02355 20.3674 8.02355H20.3794C21.0612 8.02355 21.6138 7.47089 21.6138 6.78915C21.6138 6.10742 21.0612 5.55476 20.3794 5.55476H20.3674Z" />
+        </symbol>
+        <symbol id="icon-tw" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M28.8676 2.01241C27.6855 2.84622 26.3767 3.48394 24.9916 3.90103C24.2481 3.04623 23.2601 2.44037 22.1612 2.16539C21.0622 1.89041 19.9053 1.95958 18.8469 2.36354C17.7885 2.7675 16.8797 3.48677 16.2434 4.42407C15.6071 5.36136 15.2741 6.47145 15.2893 7.60421V8.8386C13.12 8.89485 10.9705 8.41374 9.03213 7.43812C7.0938 6.46249 5.42685 5.02265 4.17972 3.2468C4.17972 3.2468 -0.757847 14.3563 10.3517 19.2939C7.80949 21.0195 4.78106 21.8848 1.71094 21.7627C12.8205 27.9346 26.3988 21.7627 26.3988 7.56718C26.3976 7.22334 26.3646 6.88035 26.3 6.54263C27.5599 5.30021 28.4489 3.73157 28.8676 2.01241V2.01241Z"
+                stroke-width="2.46878" stroke-linecap="round" stroke-linejoin="round" />
+        </symbol>
+        <symbol id="icon-fb" viewBox="0 0 17 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M14.843 2H11.1398C9.50288 2 7.93302 2.65026 6.77555 3.80773C5.61808 4.96519 4.96782 6.53506 4.96782 8.17196V11.8751H1.26465V16.8127H4.96782V26.6878H9.90539V16.8127H13.6086L14.843 11.8751H9.90539V8.17196C9.90539 7.84458 10.0354 7.53061 10.2669 7.29911C10.4984 7.06762 10.8124 6.93757 11.1398 6.93757H14.843V2Z"
+                stroke-width="2.46878" stroke-linecap="round" stroke-linejoin="round" />
+        </symbol>
+    </svg>
+    <div class="first-screen">
+        <div class="container">
+            <div class="first-screen__inner">
+                <header class="header">
+                    <div class="header__logo logo">
+                        <svg class="logo__img" viewBox="0 0 104 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M48.544 49.904C42.928 52.832 36.376 54.296 28.888 54.296C20.68 54.296 13.96 51.824 8.728 46.88C3.496 41.888 0.88 35.408 0.88 27.44C0.88 19.424 3.496 12.968 8.728 8.072C14.008 3.128 20.608 0.655996 28.528 0.655996C32.464 0.655996 36.184 1.28 39.688 2.528C43.192 3.728 46.024 5.36 48.184 7.424L40.408 16.28C37.672 13.112 33.856 11.528 28.96 11.528C24.64 11.528 21.064 13.04 18.232 16.064C15.4 19.088 13.984 22.88 13.984 27.44C13.984 32.24 15.352 36.128 18.088 39.104C20.824 42.032 24.64 43.496 29.536 43.496C32.56 43.496 35.128 43.04 37.24 42.128V32.84H27.52V22.904H48.544V49.904Z"
+                                fill="white" />
+                            <path
+                                d="M103.448 45.944C98.5999 51.56 91.9999 54.368 83.6479 54.368C75.7279 54.368 69.1759 51.872 63.9919 46.88C58.8079 41.84 56.2159 35.36 56.2159 27.44C56.2159 19.424 58.8319 12.968 64.0639 8.072C69.3439 3.128 75.9439 0.655996 83.8639 0.655996C87.5599 0.655996 91.1359 1.328 94.5919 2.672C98.0959 3.968 100.88 5.792 102.944 8.144L94.5919 16.496C93.4879 14.96 91.9999 13.808 90.1279 13.04C88.3039 12.224 86.3599 11.816 84.2959 11.816C80.0239 11.816 76.4959 13.304 73.7119 16.28C70.9759 19.208 69.6079 22.928 69.6079 27.44C69.6079 32.048 70.9519 35.816 73.6399 38.744C76.3279 41.624 79.8079 43.064 84.0799 43.064C88.8319 43.064 92.4319 41.336 94.8799 37.88L103.448 45.944Z"
+                                fill="#CA48F6" />
+                        </svg>
+                    </div>
+                    <div class="header__mobile-menu mobile-menu">
+                        <div class="mobile-menu__title">Меню</div>
+                        <a class="mobile-menu__btn mobile-menu__btn--hide" href="#">
+                            <svg class="mobile-menu__icon-hide" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="2.82843" y1="3" x2="28.2843" y2="28.4558" stroke="#FBF6F6" stroke-width="4"
+                                    stroke-linecap="round" />
+                                <line x1="3" y1="28.7578" x2="28.4558" y2="3.30199" stroke="#FBF6F6" stroke-width="4"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </a>
+                        <div class="header__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#offer">Заказать карту</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#features">Чем примечательна</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#bonus">Бонусы</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#valuable">Что полезного</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#partners">Партнёры</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__social social">
+                            <a class="header__social-icon social__icon" href="#">
+                                <svg class="social__icon--ig">
+                                    <use xlink:href="#icon-ig"></use>
+                                </svg>
+                            </a>
+                            <a class="header__social-icon social__icon" href="#">
+                                <svg class="social__icon--tw">
+                                    <use xlink:href="#icon-tw"></use>
+                                </svg>
+                            </a>
+                            <a class="header__social-icon social__icon" href="#">
+                                <svg class="social__icon--fb">
+                                    <use xlink:href="#icon-fb"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="mobile-menu__btn mobile-menu__btn--show" href="#">
+                        <svg class="mobile-menu__icon-show" viewBox="0 0 40 34" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2" x2="37.9925" y2="2" stroke="#CA48F6" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="2.00781" y1="17" x2="38.0003" y2="17" stroke="#CA48F6" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="2.00781" y1="32" x2="38.0003" y2="32" stroke="#CA48F6" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </header>
+                <div class="first-screen__content">
+                    <h1 class="first-screen__title">
+                        Карта — GoodCash <br>
+                        изменит ваш подход <br>
+                        к расходам
+                    </h1>
+                    <p class="first-screen__text">
+                        Оформи карту за 5 минут <br>
+                        и получи 3000 бонусов на счёт
+                    </p>
+                    <div class="first-screen__card">
+                        <div class="first-screen__card-wrap">
+                            <div class="first-screen__card-title">GoodCash Bank</div>
+                            <div class="first-screen__card-type">Visa</div>
+                            <div class="first-screen__card-number">
+                                <span>3265</span>
+                                <span>6789</span>
+                                <span>9021</span>
+                                <span>4870</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="first-screen__btn" href="#">Заказать карту</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="valuable" class="valuable">
+        <div class="container">
+            <h2 class="valuable__title title">Чем полезна карта?</h2>
+            <div class="valuable__inner">
+                <div class="valuable__card">
+                    <div class="valuable__card-wrap">
+                        <div class="valuable__card-title">GoodCash Bank</div>
+                        <div class="valuable__card-type">Visa</div>
+                        <div class="valuable__card-number">
+                            <span>3265</span>
+                            <span>6789</span>
+                            <span>9021</span>
+                            <span>4870</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="valuable__numbers">
+                    <div class="valuable__item">
+                        <div class="valuable__number">0%</div>
+                        <div class="valuable__text">
+                            Комиссии при переводах <br>
+                            в другие банки
+                        </div>
+                    </div>
+                    <div class="valuable__item">
+                        <div class="valuable__number">7%</div>
+                        <div class="valuable__text">
+                            Кэшбэка <br>
+                            на любые покупки
+                        </div>
+                    </div>
+                    <div class="valuable__item">
+                        <div class="valuable__number">87</div>
+                        <div class="valuable__text">
+                            Стран потдерживают <br>
+                            GoodCash
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="features__title title">Чем примечательна карта?</h2>
+            <div class="features__inner">
+                <div class="features__numbers">
+                    <div class="features__item">
+                        <div class="features__number">0 ₽</div>
+                        <div class="features__text">
+                            Стоимость годового обслуживания
+                        </div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__number">40%</div>
+                        <div class="features__text">
+                            Скидка на проезд <br>
+                            в метро
+                        </div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__number">7 минут</div>
+                        <div class="features__text">
+                            Время выпуска <br>
+                            карты
+                        </div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__number">0%</div>
+                        <div class="features__text">
+                            Годовых по кридиту <br>
+                            на недвижимость
+                        </div>
+                    </div>
+                </div>
+                <div class="features__card">
+                    <div class="features__card-wrap">
+                        <div class="features__card-title">GoodCash Bank</div>
+                        <div class="features__card-type">Visa</div>
+                        <div class="features__card-number">
+                            <span>3265</span>
+                            <span>6789</span>
+                            <span>9021</span>
+                            <span>4870</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="bonus" class="bonus">
+        <div class="container">
+            <h2 class="bonus__title title">Получайте бонусы за покупки</h2>
+            <div class="bonus__inner">
+                <div class="bonus__info">
+                    <ul class="bonus__list">
+                        <li class="bonus__item">
+                            Каждый месяц вам начисляется до 5% кэшбэка
+                            с покупок в прошлом месяце
+                        </li>
+                        <li class="bonus__item">
+                            Кэшбэк начисляется бонусами <br>
+                            в виде 1 бонус = 1 рубль
+                        </li>
+                        <li class="bonus__item">
+                            Вы можете менять вариант начисления бонусов
+                            раз в месяц
+                        </li>
+                    </ul>
+                    <a class="bonus__btn" href="#">Заказать карту</a>
+                </div>
+                <div class="bonus__mockup">
+                    <div class="bonus__mockup-screen"></div>
+                    <div class="bonus__mockup-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="partners__title title">Наши партнёры</h2>
+            <div class="partners__slider">
+                <div class="partners__slider-container swiper-container">
+                    <div class="partners__list swiper-wrapper">
+                        <div class="partners__item swiper-slide"><img src="./images/partners/m.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/adidas.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/subway.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/mcd.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/adidas.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/subway.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/mcd.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/m.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/mcd.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/m.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/subway.svg" alt=""></div>
+                        <div class="partners__item swiper-slide"><img src="./images/partners/adidas.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="partners__btn partners__btn-prev">
+                    <svg width="28" height="46" viewBox="0 0 28 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.5 2L2 23L25.5 43.5" stroke="#FBF6F6" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="partners__btn partners__btn-next">
+                    <svg width="28" height="46" viewBox="0 0 28 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 2L26 23L2.5 43.5" stroke="#FBF6F6" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="partners__pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="offer">
+        <div class="container">
+            <div class="offer__inner">
+                <h2 class="offer__title title">Закажите карту и получи <br> 3000 рублей</h2>
+                <div class="offer__info">
+                    <p class="offer__text">
+                        Заказав нашу карту в период с 08.04 по 18.04 <br> вы получите бонус в виде 3000 рублей на счёт
+                    </p>
+                    <p class="offer__text">
+                        Для заказа и оформление понадобится <br> только паспорт.Заказть карту можно онлайн <br>
+                        или в отделении
+                        банка
+                    </p>
+                    <p class="offer__text">
+                        Оформление абсолютно бесплатное <br> и за обслуживание плата не взымается
+                    </p>
+                </div>
+                <div class="offer__cards">
+                    <div class="offer__card offer__card--first">
+                        <div class="offer__card-wrap">
+                            <div class="offer__card-title">GoodCash Bank</div>
+                            <div class="offer__card-type">Visa</div>
+                            <div class="offer__card-number">
+                                <span>3269</span>
+                                <span>2105</span>
+                                <span>0461</span>
+                                <span>8246</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer__card offer__card--second">
+                        <div class="offer__card-wrap">
+                            <div class="offer__card-title">GoodCash Bank</div>
+                            <div class="offer__card-type">Visa</div>
+                            <div class="offer__card-number">
+                                <span>3265</span>
+                                <span>6789</span>
+                                <span>9021</span>
+                                <span>9170</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer__card offer__card--third">
+                        <div class="offer__card-wrap">
+                            <div class="offer__card-title">GoodCash Bank</div>
+                            <div class="offer__card-type">Visa</div>
+                            <div class="offer__card-number">
+                                <span>7263</span>
+                                <span>9345</span>
+                                <span>1572</span>
+                                <span>4820</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="offer__btn" href="#">Заказать карту</a>
+                <a class="offer__more" href="#">Подробнее об условиях акции</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <svg class="footer__logo-img" width="104" height="55" viewBox="0 0 104 55" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M48.544 49.904C42.928 52.832 36.376 54.296 28.888 54.296C20.68 54.296 13.96 51.824 8.728 46.88C3.496 41.888 0.88 35.408 0.88 27.44C0.88 19.424 3.496 12.968 8.728 8.072C14.008 3.128 20.608 0.655996 28.528 0.655996C32.464 0.655996 36.184 1.28 39.688 2.528C43.192 3.728 46.024 5.36 48.184 7.424L40.408 16.28C37.672 13.112 33.856 11.528 28.96 11.528C24.64 11.528 21.064 13.04 18.232 16.064C15.4 19.088 13.984 22.88 13.984 27.44C13.984 32.24 15.352 36.128 18.088 39.104C20.824 42.032 24.64 43.496 29.536 43.496C32.56 43.496 35.128 43.04 37.24 42.128V32.84H27.52V22.904H48.544V49.904Z"
+                            fill="white" />
+                        <path
+                            d="M103.448 45.944C98.5999 51.56 91.9999 54.368 83.6479 54.368C75.7279 54.368 69.1759 51.872 63.9919 46.88C58.8079 41.84 56.2159 35.36 56.2159 27.44C56.2159 19.424 58.8319 12.968 64.0639 8.072C69.3439 3.128 75.9439 0.655996 83.8639 0.655996C87.5599 0.655996 91.1359 1.328 94.5919 2.672C98.0959 3.968 100.88 5.792 102.944 8.144L94.5919 16.496C93.4879 14.96 91.9999 13.808 90.1279 13.04C88.3039 12.224 86.3599 11.816 84.2959 11.816C80.0239 11.816 76.4959 13.304 73.7119 16.28C70.9759 19.208 69.6079 22.928 69.6079 27.44C69.6079 32.048 70.9519 35.816 73.6399 38.744C76.3279 41.624 79.8079 43.064 84.0799 43.064C88.8319 43.064 92.4319 41.336 94.8799 37.88L103.448 45.944Z"
+                            fill="#CA48F6" />
+                    </svg>
+
+                    <div class="footer__slogan">
+                        GoodCash bank - <br>
+                        банк <span>номер 1 в Европе</span>
+                    </div>
+                </div>
+                <a class="footer__item" href="#offer">Заказать карту</a>
+                <a class="footer__item" href="#features">Чем примечательна</a>
+                <a class="footer__item" href="#bonus">Бонусы</a>
+                <a class="footer__item footer__valuable" href="#valuable">Что полезного</a>
+                <a class="footer__item" href="#partners">Партнёры</a>
+                <a class="footer__item" href="#">Конфенденциальность</a>
+                <a class="footer__item" href="#">Условия использования</a>
+                <a class="footer__item footer__phone" href="#">+7 (967) 432-41-93</a>
+                <div class="footer__item footer__social social">
+                    <a class="footer__social-icon social__icon" href="#">
+                        <svg class="social__icon--ig">
+                            <use xlink:href="#icon-ig"></use>
+                        </svg>
+                    </a>
+                    <a class="footer__social-icon social__icon" href="#">
+                        <svg class="social__icon--tw">
+                            <use xlink:href="#icon-tw"></use>
+                        </svg>
+                    </a>
+                    <a class="footer__social-icon social__icon" href="#">
+                        <svg class="social__icon--fb">
+                            <use xlink:href="#icon-fb"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copy">design by @avanesov.edik</div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
